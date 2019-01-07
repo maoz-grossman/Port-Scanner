@@ -126,7 +126,7 @@ IsThePassword=true;
 		ssh.setServer("bandit.labs.overthewire.org");
 		ssh.setUsername("bandit0");
 		ssh.setPort(2220);
-		ssh.passwordRider("C:\\Users\\user\\eclipse-workspace\\Matala5\\src\\password.txt");
+		ssh.passwordRider("src\\password.txt");
 
 	}
 
