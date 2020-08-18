@@ -181,7 +181,7 @@ public class port_scannaer extends Thread {
 
 	public static void main(String[] args) {
 		port_scannaer scan= new port_scannaer("scanner1");
-		//i'm trying on local host but it should work on any server ip i choose
+		// Runs on local host but it should work on any server ip 
 		scan.setServer("127.0.0.1");
 		System.out.println(scan.server);
 				scan.start();
